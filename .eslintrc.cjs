@@ -1,6 +1,9 @@
 module.exports = {
+  env: {
+    node: true,
+  },
   parser: '@typescript-eslint/parser',
-  extends: ['react-app', 'plugin:react/recommended', 'prettier'],
+  extends: ['eslint:recommended', 'plugin:react/recommended', 'prettier'],
   plugins: ['react', '@typescript-eslint'],
   rules: {
     'react/react-in-jsx-scope': 'off',
